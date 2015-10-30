@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul > li {
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+#carousel-wrapper {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+}
+#prev, #next {
+    width: 20px;
+    height: 90px;
+    background: #2b2b2b;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#prev, #next {
+    position: absolute;
+    z-index: 1;
+}
+#prev {
+    left: 0;
+}
+#next {
+    right: 0;
+}
+.animate {
+    transition: left 0.5s ease-in;
+}
